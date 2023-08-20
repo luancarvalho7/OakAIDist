@@ -1,17 +1,9 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
-    ],
-    "redirects": [
-      {
-        "source": "http://(.*)",
-        "destination": "https://$1",
-        "permanent": true,
-        "statusCode": 301
-      }
-    ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
     "cleanUrls": true
-  }
+}
